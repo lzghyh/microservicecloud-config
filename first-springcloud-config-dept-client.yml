@@ -6,7 +6,7 @@ spring:
 server:
   port: 8001
 spring: 
-   profiles: dev
+   profiles: dev8001
    application: 
     name: microservicecloud-dept #所有的服务的名字必须相同。这样负载均衡才能匹配到相同的服务
   datasource:
@@ -44,7 +44,7 @@ info:
 server:
   port: 8002
 spring: 
-   profiles: dev
+   profiles: dev8002
    application: 
     name: microservicecloud-dept #所有的服务的名字必须相同。这样负载均衡才能匹配到相同的服务
   datasource:
@@ -83,7 +83,7 @@ info:
 server:
   port: 8003
 spring: 
-   profiles: dev
+   profiles: dev8003
    application: 
     name: microservicecloud-dept #所有的服务的名字必须相同。这样负载均衡才能匹配到相同的服务
   datasource:
