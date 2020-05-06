@@ -7,7 +7,7 @@ server:
   port: 7001 #注册中心占用7001端口,冒号后面必须要有空格
    
 spring: 
-  profiles: dev
+  profiles: dev7001
   application:
     name: microservicecloud-config-eureka-client-7001
     
@@ -24,7 +24,7 @@ server:
   port: 7002 #注册中心占用7002端口,冒号后面必须要有空格
    
 spring: 
-  profiles: dev
+  profiles: dev7002
   application:
     name: microservicecloud-config-eureka-client-7002
     
@@ -42,7 +42,7 @@ server:
   port: 7003 #注册中心占用7003端口,冒号后面必须要有空格
    
 spring: 
-  profiles: dev
+  profiles: dev7003
   application:
     name: microservicecloud-config-eureka-client-7002
     
