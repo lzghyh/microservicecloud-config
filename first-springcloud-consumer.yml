@@ -7,9 +7,9 @@ server:
   port: 80
 
 spring:
-  profiles: dev
+  profiles: dev80
   application: 
-    name: microservicecloud-config-client
+    name: first_springcloud-config-client
 
 feign:
   hystrix:
